@@ -1,6 +1,6 @@
 # SteadyState.jl
 
-A plate represented by 10x10 matrix, all edges are 15.0 degree, point (3, 6) is 100.0 degree. For each point, the new degree decide by the following fomula.
+A plate represented by 10x10 matrix, all edges are fixed at 15.0 degree, point (3, 6) is fixed at 100.0 degree. For each point, the new degree decide by the following fomula.
 
 $$
 A_{i,j} \\ = \\ \frac{1}{4} (A_{i-1,j} \\ + \\ A_{i+1,j} \\ + \\ A_{i,j-1} \\ + \\ A_{i,j+1})
